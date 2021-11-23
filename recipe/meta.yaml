@@ -1,5 +1,5 @@
 {% set name = "opensarlab_lib" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a0e44e6ff50900afd0c3b18f79ee12d5ffd72615c499fa780b292936f25f158f
+  sha256: 2c116235d404ac4712de2bb9eb8d1e1447cdcdca3696d67c0841a4c8755ca34a
 
 build:
   number: 0
