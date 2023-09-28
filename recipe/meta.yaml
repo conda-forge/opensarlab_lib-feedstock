@@ -1,5 +1,5 @@
 {% set name = "opensarlab_lib" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2c116235d404ac4712de2bb9eb8d1e1447cdcdca3696d67c0841a4c8755ca34a
+  sha256: 3ea2030e4802f731d832b16c0b409a9e4ac896d8cedd260bce1325971604f346
 
 build:
   number: 0
@@ -23,15 +23,16 @@ requirements:
   run:
     - python >=3.8
     - asf_search
+    - cartopy
     - gdal
     - hyp3_sdk
-    - ipython
     - ipywidgets
     - matplotlib-base
     - numpy
     - pandas
     - pyproj
-    - requests
+    - shapely
+    - pyshp
 
 test:
   imports:
@@ -51,3 +52,4 @@ extra:
   recipe-maintainers:
     - Alex-Lewandowski
     - jhkennedy
+    - dgpalmieri
