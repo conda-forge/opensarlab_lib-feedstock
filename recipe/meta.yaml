@@ -23,15 +23,16 @@ requirements:
   run:
     - python >=3.8
     - asf_search
+    - cartopy
     - gdal
     - hyp3_sdk
-    - ipython
     - ipywidgets
     - matplotlib-base
     - numpy
     - pandas
     - pyproj
-    - requests
+    - shapely
+    - pyshp
 
 test:
   imports:
@@ -51,3 +52,4 @@ extra:
   recipe-maintainers:
     - Alex-Lewandowski
     - jhkennedy
+    - dgpalmieri
