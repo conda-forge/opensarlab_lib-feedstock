@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-opensarlab_lib-green.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-opensarlab__lib-green.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/opensarlab_lib.svg)](https://anaconda.org/conda-forge/opensarlab_lib) |
 
 Installing opensarlab_lib
 =========================
